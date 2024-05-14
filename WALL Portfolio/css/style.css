@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @font-face {
   font-family: "SourceSansPro";
-  src: url("/fonts/source-sans-pro.regular.ttf") format("truetype");
+  src: url("../fonts/source-sans-pro.regular.ttf") format("truetype");
   font-weight: 400;
 }
 * {
@@ -155,28 +155,28 @@ header {
 }
 
 .content {
-  margin: 84px auto;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 .content button {
-  margin: 24px auto;
+  margin: 36px auto 24px auto;
   border-radius: 10px;
 }
 
 .content__about {
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 1120px;
-  height: 116px;
+  height: 100px;
 }
 .content__about p {
   font-size: 48px;
   font-weight: 500;
   line-height: 57.6px;
   text-align: center;
-  background-image: url(/img/underline.svg);
+  background-image: url(../img/underline.svg);
   background-repeat: no-repeat;
   background-position: 148px 53px;
   color: #212529;
@@ -185,7 +185,7 @@ header {
 .content__tittle {
   display: flex;
   flex-direction: row;
-  margin: 42px auto;
+  margin: 42px auto 16px auto;
   width: 544px;
   height: 91px;
 }
@@ -218,7 +218,9 @@ footer {
   position: relative;
   margin: 0 auto;
   padding: 45px 0 0 0;
-  height: 830px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   border-radius: 44px 44px 0px 0px;
   background: #C574F6;
 }
@@ -285,7 +287,7 @@ footer {
 }
 
 .contacts {
-  margin: 100px auto;
+  margin: 40px auto 0 auto;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -340,7 +342,7 @@ footer {
 }
 
 .contacts__icons {
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   display: flex;
   justify-content: space-around;
 }
@@ -348,7 +350,7 @@ footer {
 .contacts__policy {
   display: flex;
   justify-content: space-between;
-  margin: 72px auto 32px auto;
+  margin: 30px auto 32px auto;
   width: 327px;
   height: 22px;
 }
@@ -362,7 +364,8 @@ footer {
 }
 
 .contacts__rights {
-  margin: 24px auto 32px auto;
+  margin: 24px auto 0 auto;
+  padding: 0 0 40px 0;
   width: 256px;
   height: 20px;
 }
@@ -394,7 +397,7 @@ hr {
   width: 1120px;
   height: 59px;
   text-align: center;
-  background-image: url(/img/underline__portfolio.svg);
+  background-image: url(../img/underline__portfolio.svg);
   background-repeat: no-repeat;
   background-position: 730px 48px;
 }
@@ -410,7 +413,7 @@ hr {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-image: url(/img/Arrow_step1.svg);
+  background-image: url(../img/Arrow_step1.svg);
   background-repeat: no-repeat;
   background-position: 355px 105px;
   transform: rotate(-129 deg);
@@ -420,7 +423,7 @@ hr {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-image: url(/img/Arrow_step2.svg);
+  background-image: url(../img/Arrow_step2.svg);
   background-repeat: no-repeat;
   background-position: 610px 105px;
   transform: rotate(-50 deg);
@@ -467,7 +470,7 @@ hr {
   height: 567px;
   display: flex;
   justify-content: space-between;
-  background-image: url(/img/vertical__line.svg);
+  background-image: url(../img/vertical__line.svg);
   background-repeat: no-repeat;
   background-position: 560px 24px;
 }
@@ -511,7 +514,7 @@ hr {
 }
 
 .portfolio__text1 {
-  background-image: url(/img/ikon_step1.svg);
+  background-image: url(../img/ikon_step1.svg);
   background-repeat: no-repeat;
   background-position: 74px 8px;
   transform: rotate(27 deg);
@@ -537,7 +540,7 @@ hr {
   width: 481px;
   height: 125px;
   text-align: center;
-  background-image: url(/img/ikon_step2.svg);
+  background-image: url(../img/ikon_step2.svg);
   background-repeat: no-repeat;
   background-position: 152px 50px;
 }
@@ -549,7 +552,7 @@ hr {
 }
 
 .portfolio__text3 {
-  background-image: url(/img/ikon_step3.svg);
+  background-image: url(../img/ikon_step3.svg);
   background-repeat: no-repeat;
   background-position: 302px 19px;
 }
@@ -568,7 +571,7 @@ hr {
 .generate__text {
   margin: 72px auto 0 auto;
   width: 928px;
-  background-image: url(/img/rocket.svg);
+  background-image: url(../img/rocket.svg);
   background-repeat: no-repeat;
   background-position: 793px 80px;
   transform: rotate(-86.01 deg);
@@ -593,7 +596,7 @@ hr {
   margin: 67px auto 78px auto;
   display: flex;
   justify-content: space-around;
-  background-image: url(/img/mobile_step2.svg);
+  background-image: url(../img/mobile_step2.svg);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -642,7 +645,7 @@ hr {
   margin: 0 auto;
   width: 1120px;
   height: 65px;
-  background-image: url(/img/example_underline.svg);
+  background-image: url(../img/example_underline.svg);
   background-repeat: no-repeat;
   background-position: 438px 48px;
 }
@@ -663,7 +666,7 @@ hr {
   margin: 0 auto;
   width: 736px;
   height: 69px;
-  background-image: url(/img/example_underline.svg);
+  background-image: url(../img/example_underline.svg);
   background-repeat: no-repeat;
   background-position: 455px 48px;
 }
@@ -760,13 +763,13 @@ hr {
 .custom-swiper-button-next {
   z-index: 2;
   right: 0;
-  background-image: url(/img/next.svg);
+  background-image: url(../img/next.svg);
 }
 
 .custom-swiper-button-prev {
   z-index: 1;
   left: 0;
-  background-image: url(/img/prev.svg);
+  background-image: url(../img/prev.svg);
 }
 
 .terms__container {
@@ -847,13 +850,14 @@ hr {
 
 .contact {
   position: relative;
-  margin: 138px 0 231px 0;
+  margin: 20px 0 100px 0;
   display: flex;
   justify-content: space-around;
   overflow: hidden;
 }
 
 .contact__content {
+  margin: 90px 0 0 0;
   width: 544px;
   height: 207px;
 }
@@ -895,7 +899,7 @@ hr {
   position: relative;
   width: 443px;
   height: 553px;
-  background: url(/img/contact.svg);
+  background: url(../img/contact.svg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1027,7 +1031,7 @@ hr {
     padding: 0 0 15px 0;
     width: 343px;
     height: 83px;
-    background: url(/img/underline__portfolio_example.svg);
+    background: url(..img/underline__portfolio_example.svg);
     background-repeat: no-repeat;
     background-position: 95px 68px;
   }
@@ -1083,7 +1087,7 @@ hr {
     margin: 0 0 -70px 0;
     width: 343px;
     height: 90px;
-    background: url(/img/underline__tittle.svg);
+    background: url(../img/underline__tittle.svg);
     background-repeat: no-repeat;
     background-position: 123px 70px;
   }
@@ -1092,17 +1096,17 @@ hr {
     line-height: 36px;
   }
   .portfolio__block1 {
-    background-image: url(/img/arrow_mobile.svg);
+    background-image: url(../img/arrow_mobile.svg);
     background-position: 227px 185px;
     transform: rotate(-119.43 deg);
   }
   .portfolio__block2 {
-    background-image: url(/img/arrow_mobile2.svg);
+    background-image: url(../img/arrow_mobile2.svg);
     background-position: 240px 210px;
     transform: rotate(-147.08 deg);
   }
   .portfolio__block3 {
-    background-image: url(/img/arrow_mobile3.svg);
+    background-image: url(../img/arrow_mobile3.svg);
     background-position: 237px 210px;
     transform: rotate(-127.97 deg);
   }
@@ -1278,7 +1282,7 @@ hr {
     margin: 0 auto;
     width: 343px;
     height: 80px;
-    background: url(/img/underline_exampl.svg);
+    background: url(../img/underline_exampl.svg);
     background-repeat: no-repeat;
     background-position: 143px 35px;
     background-size: 150px 10px;
@@ -1310,8 +1314,7 @@ hr {
   }
   footer {
     margin: 0 auto;
-    padding: 53px 0 0 0;
-    height: 893px;
+    padding: 5px 0 0 0;
   }
   .subscribe {
     margin: 0 auto;
@@ -1370,7 +1373,6 @@ hr {
   }
   .contacts__wp {
     order: 1;
-    margin: 0 auto auto 20px;
     width: 195px;
   }
   .contacts__wp p {
@@ -1516,7 +1518,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/img/contacts__mobile.svg);
+    background: url(../img/contacts__mobile.svg);
     background-repeat: no-repeat;
     overflow: hidden;
   }
